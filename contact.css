@@ -1,0 +1,86 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI', sans-serif;
+}
+
+body{
+background:#F5F1EC;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+
+/* Container */
+
+.contact-container{
+width:420px;
+background:white;
+padding:40px;
+border-radius:18px;
+box-shadow:0 10px 25px rgba(0,0,0,0.08);
+text-align:center;
+}
+
+.contact-container h1{
+color:#2b2b2b;
+margin-bottom:5px;
+}
+
+.subtitle{
+color:#777;
+margin-bottom:25px;
+font-size:14px;
+}
+
+/* Form */
+
+.contact-form{
+display:flex;
+flex-direction:column;
+text-align:left;
+}
+
+.contact-form label{
+margin-top:12px;
+font-size:14px;
+color:#444;
+}
+
+.contact-form input,
+.contact-form textarea{
+margin-top:5px;
+padding:12px;
+border:1px solid #ddd;
+border-radius:8px;
+outline:none;
+}
+
+.contact-form textarea{
+resize:none;
+height:120px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus{
+border-color:#B08968;
+}
+
+/* Button */
+
+.contact-form button{
+margin-top:25px;
+padding:12px;
+background:#B08968;
+color:white;
+border:none;
+border-radius:8px;
+cursor:pointer;
+font-size:15px;
+}
+
+.contact-form button:hover{
+background:#9c7557;
+}

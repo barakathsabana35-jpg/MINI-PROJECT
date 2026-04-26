@@ -1,0 +1,85 @@
+body{
+ margin:0;
+ font-family:'Segoe UI', Arial, sans-serif;
+ background:#F5F1EC;
+}
+
+.navbar{
+ display:flex;
+ justify-content:space-between;
+ align-items:center;
+ padding:15px 60px;
+ background:#EFE7DE;
+}
+
+.logo h2{
+ margin:0;
+ color:#2b2b2b;
+}
+
+.logo span{
+ color:#B08968;
+}
+
+.nav-links{
+ list-style:none;
+ display:flex;
+ gap:30px;
+}
+
+.nav-links a{
+ text-decoration:none;
+ color:#4b4b4b;
+ font-weight:500;
+}
+
+.nav-links a:hover{
+ color:#B08968;
+}
+
+.feed-container{
+ max-width:600px;
+ margin:60px auto;
+}
+
+.feed-container h1{
+ text-align:center;
+ color:#2b2b2b;
+ margin-bottom:40px;
+}
+
+.post{
+ background:white;
+ padding:20px;
+ margin-bottom:20px;
+ border-radius:12px;
+ box-shadow:0 6px 15px rgba(0,0,0,0.08);
+}
+
+.post h3{
+ margin-top:0;
+ color:#2b2b2b;
+}
+
+.post p{
+ color:#666;
+ line-height:1.6;
+}
+
+.post-actions{
+ margin-top:15px;
+}
+
+.post-actions button{
+ background:#B08968;
+ border:none;
+ color:white;
+ padding:8px 14px;
+ margin-right:10px;
+ border-radius:6px;
+ cursor:pointer;
+}
+
+.post-actions button:hover{
+ background:#9c7557;
+}

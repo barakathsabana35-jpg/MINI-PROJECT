@@ -1,0 +1,64 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: 'Segoe UI', sans-serif;
+}
+
+body{
+background:#F5F1EC;
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+/* main container */
+
+.container{
+width:420px;
+background:white;
+padding:35px;
+border-radius:18px;
+box-shadow:0 8px 20px rgba(0,0,0,0.08);
+}
+
+h1{
+text-align:center;
+color:#B08968;
+margin-bottom:5px;
+}
+
+.subtitle{
+text-align:center;
+font-size:14px;
+color:#777;
+margin-bottom:25px;
+}
+
+/* notification cards */
+
+.notification{
+background:#F5F1EC;
+padding:15px;
+border-radius:12px;
+margin-bottom:12px;
+transition:0.3s;
+border-left:4px solid #B08968;
+}
+
+.notification:hover{
+transform:translateY(-2px);
+box-shadow:0 5px 10px rgba(0,0,0,0.05);
+}
+
+.notification p{
+font-size:15px;
+color:#333;
+margin-bottom:5px;
+}
+
+.notification span{
+font-size:12px;
+color:#888;
+}

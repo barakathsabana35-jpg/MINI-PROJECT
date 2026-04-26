@@ -1,0 +1,122 @@
+body{
+  margin:0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background:#F5F1EC;
+}
+
+.features-page .navbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  background:#EFE7DE;
+  padding:15px 60px;
+}
+
+.features-page .logo h2{
+  margin:0;
+  color:#2b2b2b;
+}
+
+.features-page .logo span{
+  color:#B08968;
+}
+
+.features-page .logo p{
+  font-size:12px;
+  margin:0;
+  color:#7a7a7a;
+}
+
+.features-page .nav-links{
+  list-style:none;
+  display:flex;
+  gap:35px;
+}
+
+.features-page .nav-links a{
+  text-decoration:none;
+  color:#4b4b4b;
+  font-size:16px;
+  font-weight:500;
+}
+
+.features-page .nav-links a:hover{
+  color:#B08968;
+}
+
+
+.features-page .login-btn{
+  padding:8px 18px;
+  border:1px solid #B08968;
+  background:transparent;
+  color:#B08968;
+  border-radius:8px;
+  cursor:pointer;
+}
+
+.features-page .login-btn:hover{
+  background:#B08968;
+  color:white;
+}
+
+.features-page .features-section{
+ padding:100px 120px;
+ text-align:center;
+}
+
+.features-page .features-section span{
+ background:#E9DED2;
+ color:#7A5C45;
+ padding:6px 14px;
+ border-radius:10px;
+ font-weight:600;
+ font-size:14px;
+}
+
+.features-page .features-section h1{
+ font-size:48px;
+ margin-top:25px;
+ color:#2b2b2b;
+}
+
+.features-page .features-section h1 span{
+ color:#B08968;
+ background:none;
+ font-size:inherit;
+ font-weight:inherit;
+}
+
+.features-page .features-section p{
+ color:#6d6d6d;
+ font-size:20px;
+ margin-top:15px;
+ max-width:600px;
+ margin-left:auto;
+ margin-right:auto;
+}
+
+.features-page .features-container{
+ display:flex;
+ justify-content:center;
+ gap:30px;
+ margin-top:50px;
+ flex-wrap:wrap;
+}
+
+.features-page .feature-card{
+ background:white;
+ padding:25px;
+ width:220px;
+ border-radius:12px;
+ box-shadow:0 4px 10px rgba(0,0,0,0.08);
+}
+
+.features-page .feature-card h3{
+ color:#B08968;
+ margin-bottom:10px;
+}
+
+.features-page .feature-card p{
+ font-size:14px;
+ color:#6d6d6d;
+}

@@ -1,0 +1,98 @@
+*{
+ margin:0;
+ padding:0;
+ box-sizing:border-box;
+ font-family:'Segoe UI',sans-serif;
+}
+
+body{
+ background:#F5F1EC;
+ display:flex;
+ justify-content:center;
+ align-items:center;
+ min-height:100vh;
+}
+
+.profile-container{
+ width:450px;
+ background:white;
+ padding:40px;
+ border-radius:18px;
+ box-shadow:0 10px 25px rgba(0,0,0,0.08);
+}
+
+.profile-header{
+ text-align:center;
+ margin-bottom:30px;
+}
+
+.profile-pic{
+ width:90px;
+ height:90px;
+ border-radius:50%;
+ background:#B08968;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+ margin:0 auto 15px auto;
+ color:white;
+ font-size:32px;
+}
+
+.username{
+ color:#888;
+ margin-bottom:10px;
+}
+
+.bio{
+ font-size:14px;
+ color:#555;
+ margin-bottom:20px;
+}
+
+.edit-btn{
+ padding:10px 20px;
+ border:none;
+ background:#B08968;
+ color:white;
+ border-radius:8px;
+ cursor:pointer;
+ font-size:14px;
+}
+
+.edit-btn:hover{
+ background:#9c7557;
+}
+
+.profile-stats{
+ display:flex;
+ justify-content:space-between;
+ margin-bottom:30px;
+ text-align:center;
+}
+
+.stat h2{
+ color:#B08968;
+}
+
+.stat p{
+ font-size:13px;
+ color:#777;
+}
+
+.posts-section h2{
+ margin-bottom:15px;
+ color:#333;
+}
+
+.post{
+ background:#F5F1EC;
+ padding:15px;
+ border-radius:10px;
+ margin-bottom:12px;
+}
+
+.post span{
+ font-size:12px;
+ color:#777;
+}

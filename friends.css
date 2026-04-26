@@ -1,0 +1,80 @@
+body{
+ margin:0;
+ font-family:'Segoe UI', Arial, sans-serif;
+ background:#F5F1EC;
+}
+
+.navbar{
+ display:flex;
+ justify-content:space-between;
+ align-items:center;
+ padding:15px 60px;
+ background:#EFE7DE;
+}
+
+.logo h2{
+ margin:0;
+ color:#2b2b2b;
+}
+
+.logo span{
+ color:#B08968;
+}
+
+.nav-links{
+ list-style:none;
+ display:flex;
+ gap:30px;
+}
+
+.nav-links a{
+ text-decoration:none;
+ color:#4b4b4b;
+ font-weight:500;
+}
+
+.nav-links a:hover{
+ color:#B08968;
+}
+
+.friends-container{
+ max-width:700px;
+ margin:60px auto;
+ text-align:center;
+}
+
+.friends-container h1{
+ color:#2b2b2b;
+ margin-bottom:40px;
+}
+
+.friend-card{
+ background:white;
+ padding:20px;
+ margin-bottom:20px;
+ border-radius:12px;
+ box-shadow:0 6px 15px rgba(0,0,0,0.08);
+}
+
+.friend-card h3{
+ margin:0;
+ color:#2b2b2b;
+}
+
+.friend-card p{
+ color:#777;
+ margin:8px 0 15px;
+}
+
+.friend-card button{
+ background:#B08968;
+ border:none;
+ padding:8px 16px;
+ border-radius:6px;
+ color:white;
+ cursor:pointer;
+}
+
+.friend-card button:hover{
+ background:#9c7557;
+}
